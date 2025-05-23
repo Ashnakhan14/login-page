@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+  .logo img {
+    width: 126px;
+  }
+  .main-heading {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .countdown .time-box {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li.time-box span {
+    font-weight: 300;
+    font-size: 47px;
+    padding: 32px 50px;
+  }
+  .countdown {
+    margin-top: 28px;
+  }
+  .newsletter-section .heading {
+    margin-bottom: 15px;
+    margin-top: 37px;
+  }
+  .newsletter-form {
+    margin-top: 20px;
+    margin-bottom: 42px;
+  }
+}
