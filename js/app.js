@@ -13,10 +13,10 @@ gsap.set(registerForm, { x: "100%", opacity: 0 });
 registerBtn.addEventListener('click', () => {
   container.classList.add('active');
 
-  gsap.to(loginForm, { x: "-100%", opacity: 0, duration: 0.4, ease: "power2.inOut" });
-  gsap.to(registerForm, { x: "0%", opacity: 1, duration: 0.4, ease: "power2.inOut" });
+  gsap.to(loginForm, { x: "-100%", opacity: 0, duration: 0.5, ease: "power2.inOut" });
+  gsap.to(registerForm, { x: "0%", opacity: 1, duration: 0.5, ease: "power2.inOut" });
 
-  gsap.to(toggleBox, { x: "100%", duration: 0.2, delay: 0.1, ease: "power2.inOut" });
+  gsap.to(toggleBox, { x: "100%", duration: 0.3,  ease: "power2.inOut" });
 
   gsap.set(toggleInner, { opacity: 0 });
 
@@ -34,10 +34,10 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
   container.classList.remove('active');
 
-  gsap.to(loginForm, { x: "0%", opacity: 1, duration: 0.4, ease: "power2.inOut" });
-  gsap.to(registerForm, { x: "100%", opacity: 0, duration: 0.4, ease: "power2.inOut" });
+  gsap.to(loginForm, { x: "0%", opacity: 1, duration: 0.5, ease: "power2.inOut" });
+  gsap.to(registerForm, { x: "100%", opacity: 0, duration: 0.5, ease: "power2.inOut" });
 
-  gsap.to(toggleBox, { x: "0%", duration: 0.2, delay: 0.1, ease: "power2.inOut" });
+  gsap.to(toggleBox, { x: "0%", duration: 0.3,  ease: "power2.inOut" });
 
   gsap.set(toggleInner, { opacity: 0 });
 
